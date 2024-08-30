@@ -1,0 +1,48 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<section>
+  <article>
+    <h1>About Us</h1>
+    <!--Begin row-->
+    <div class="row">
+      <!--Begin col-->
+      <div class="column">
+        <p>
+          Based in India, Little Lemon is a family-owned Northern restaurant focused on traditional recipes served with a modern twist.
+        </p>
+        <p>
+          The chefs draw inspiration from Indian, Greek, and Turkish cultures and have a menu of 12-15 items that they rotate seasonally.
+        </p>
+        <p>
+          The restaurant has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal any time of the day.
+        </p>
+        <p>
+          Little Lemon is owned by Bipin Kumar, who moved to the United States to pursue his dream of owning a restaurant.
+        </p>
+        <p>
+          To craft the menu, Bipin relies on family recipes and his experience as a chef in India.
+        </p>
+        <p>
+          Bipin handles all the marketing for the restaurant and led the effort to expand the menu beyond classic Indian dishes to incorporate additional cuisines from the Northern region.
+        </p>
+      </div>
+      
+      <!--End col-->
+
+      <!--Begin col-->
+      <div class="column">
+        <figure class="figure">
+          <img
+            src="{% static 'img/mario-and-adrian.jpg' %}"
+            alt="Mario and Adrian"
+          />
+          <figcaption class="figure-caption">
+            Little Lemon owner Bipin Kumar
+          </figcaption>
+        </figure>
+      </div>
+      <!--End col-->
+    </div>
+    <!--End row-->
+  </article>
+</section>
+{% endblock %}
